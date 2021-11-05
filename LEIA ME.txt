@@ -1,0 +1,38 @@
+Olá professor aqui é o Matheus!
+
+Para rodar nossa API basta instalar as depencias abaixo:
+
+pip install django
+pip install rest_framework
+pip install nltk
+pip install djangorestframework
+
+
+Depois rodar o comando
+
+python manage.py migrate
+
+Dentro da pasta do projeto (Se precisar)
+
+
+Agora é só rodar 
+
+python manage.py runserver
+
+Para consumir da api utilize as seguintes urls:
+
+http://127.0.0.1:8000/api/avaliacoes  
+
+Para gravar na API use o seguinte json:
+   {
+        "descricao": "o show dele estava bom",
+        "id_author": 4,
+        "id_artista": 1
+    }
+
+
+No campo descrição vai a avaliação e nos demais são os ids que estão no banco da aplicação principal, podem ser aleatorios para testar!
+
+
+Qualquer duvida me chama aqui (43) 99128-8300
+
